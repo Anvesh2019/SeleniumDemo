@@ -25,7 +25,11 @@ namespace Selenium_Demo
             dr.FindElement(By.Name("q")).SendKeys("India");
             dr.FindElement(By.Name("q")).SendKeys(Keys.Enter);
         }
-
+        [Test]
+        public void VerifyStudDetails()
+        {
+            Assert.Pass();
+        }
         [Test]
         public void VerifyStudname()
         {
